@@ -10,9 +10,9 @@ $(document).ready(function(){
     $(".magic").click(function(){
         var different = $(this).attr("id");
         console.log(different);
-        $(".wrapper").css("background-image", "url("+different+".jpg)");
+        //$(".wrapper").css("background-image", "url("+different+".jpg)");
         $("button").css("display", "none");
-        $("button").attr("class", "no-hover");
+       
         $("h1").text("Choose Fighter");
         $("h1").next().html("<select id='first'><option value='raphael1'>Raphael</option><option value='donny1'>Donny</option><option value='mikey1'>Mikey</option></select> <select id='second' ><option value='raphael2'>Raphael</option><option value='donny2'>Donny</option><option value='mikey2'>Mikey</option></select> ");
         $("#secret").css("display", "block");
