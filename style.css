@@ -1,13 +1,16 @@
 .wrapper{
     /*background-color: black;*/
-    width: 900px;
-    height: 900px;
+    width: 800px;
+    height: 800px;
     background-image: url("black.jpg");
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
 }
 .main-content{
     background-color: gray;
     display: inline-block;
     width: 200px;
+    height: 200px;
     margin: 100px 300px 0px 365px;
     
 
