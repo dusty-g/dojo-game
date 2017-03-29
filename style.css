@@ -15,7 +15,13 @@
     
 
 }
-
+#secret{
+    display: none;
+    margin: 20px auto;
+}
+#mikey1, #mikey2, #raphael1, #raphael2, #donny1, #donny2{
+    display: none;
+}
 button {
     margin: 3px;
 
